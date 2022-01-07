@@ -16,7 +16,6 @@ h2 {
 }
 
 figure {
-    text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
     padding: 15px;
@@ -25,4 +24,21 @@ figure {
 
 figcaption {
     margin-top: 10px;
+}
+
+.figura-matriz {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.figura-familiatupfeln {
+    width: 275px;
+    float: right;
+    text-align: center;
+}
+
+figure img {
+    width: inherit;
+    height: inherit;
 }
