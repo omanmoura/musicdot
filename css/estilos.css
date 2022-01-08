@@ -1,8 +1,10 @@
 body {
-    font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #3d3d3d;
     width: 940px;
     margin: 0 auto;
+    font-size: 16px;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    line-height: 1.5;
 }
 
 .titulo {
@@ -27,20 +29,61 @@ figcaption {
     margin-top: 10px;
 }
 
-.figura-matriz {
+.matriz-musicdot {
     width: 550px;
     text-align: center;
     margin: 0 auto;
 }
 
-.figura-familiatupfeln {
+.familia-tupfeln {
     width: 275px;
     float: right;
     text-align: center;
 }
 
 figure img {
-    width: inherit;
-    height: inherit;
+    width: 100%;
 }
 
+
+.contato_subtitulo {
+    display: inline;
+}
+
+.contato_secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato_secao-telefone {
+    margin-left: 32px;
+    width: 33%;
+}
+
+.contato_info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato_info-titulo, .contato_info-descricao {
+    display: inline;
+}
+
+.contato_info-descricao {
+    margin-left: 10px;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+
+.rodape_logo {
+    width: 6em;
+}
+
+.rodape_copyright {
+    display: inline;
+    margin-left: 1em;
+}
