@@ -1,6 +1,7 @@
 body {
     color: #3d3d3d;
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin: 0 auto;
     font-size: 16px;
     font-family: "Helvetica", "Lucida Grande", sans-serif;
@@ -23,6 +24,8 @@ figure {
     border: 1px solid lightgrey;
     padding: 15px;
     margin: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 figcaption {
@@ -75,12 +78,12 @@ figure img {
 }
 
 .rodape {
-    padding: 1.75em 0;
+    padding: 1.75rem 0;
     font-size: 1.1rem;
 }
 
 .rodape_logo {
-    width: 6em;
+    width: 6rem;
 }
 
 .rodape_copyright {
