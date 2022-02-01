@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	color: #2e4255;
+	font-family: 'Montserrat', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +47,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
 }
