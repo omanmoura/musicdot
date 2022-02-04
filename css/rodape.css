@@ -1,0 +1,45 @@
+.rodape {
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 2em 5%;
+}
+
+.rodape_secao {
+    margin-top: 2em;
+}
+
+.rodape_logo {
+    width: 11.25em;
+    margin-bottom: 1em;
+}
+
+.rodape_dados {
+    line-height: 1.5em;
+}
+
+.rodape_midias {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.rodape_midias-item {
+    width: 2.62em;
+    margin: 0 .25em;
+}
+
+.rodape_midias-item img {
+    width: 100%;
+}
+
+.rodape_titulo {
+    text-transform: uppercase;
+    font-size: 1.33em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.rodape_item-lista {
+    font-weight: 500;
+    margin: 0.625em 0;
+}
