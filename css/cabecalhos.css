@@ -44,4 +44,21 @@
     .cabecalho_menu {
         background-color: transparent;
     }
+
+    .cabecalho_item-destaque {
+        background-color: #e93d50;
+        border-radius: 6px;
+        margin-left: 1.42em;
+    }
+
+    .cabecalho_item-destaque a {
+        padding: 1.8em 3.5em;
+    }
+}
+
+@media (min-width: 1066px) {
+    .cabecalho {
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
 }
